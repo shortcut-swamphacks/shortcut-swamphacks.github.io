@@ -17685,11 +17685,6 @@ svg, vml {
   background-color: #f5f5f5;
 }
 
-/* line 14, ../../../../ext/packages/ext-theme-neutral/sass/src/grid/header/Container.scss */
-.x-accordion-item .x-grid-header-ct {
-  border-width: 0 0 1px !important;
-}
-
 /* line 20, ../../../../ext/packages/ext-theme-neutral/sass/src/grid/header/Container.scss */
 .x-grid-header-ct-hidden {
   border: 0 !important;
@@ -21552,65 +21547,6 @@ a.x-monthpicker-yearnav-button:hover {
   background-image: url(images/grid/group-expand.png);
 }
 
-/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-layout-ct {
-  background-color: white;
-  padding: 5px 5px 0;
-}
-
-/* line 6, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-hd .x-panel-header-title {
-  color: #666666;
-  font-weight: bold;
-  font-family: helvetica, arial, verdana, sans-serif;
-  text-transform: none;
-}
-
-/* line 13, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-item {
-  margin: 0 0 5px;
-}
-/* line 16, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-item .x-accordion-hd {
-  background: #dfeaf2;
-  border-width: 0;
-  border-color: #157fcc;
-  padding: 8px 10px;
-}
-/* line 24, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-item .x-accordion-hd-over {
-  background-color: #e6f1f9;
-}
-/* line 29, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-item .x-accordion-hd-sibling-expanded {
-  border-top-color: #157fcc;
-  border-top-width: 0;
-}
-/* line 34, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-item .x-accordion-hd-last-collapsed {
-  border-bottom-color: #dfeaf2;
-}
-/* line 38, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-item .x-accordion-body {
-  border-width: 0;
-}
-
-/* line 45, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-hd .x-tool-collapse-top,
-.x-accordion-hd .x-tool-collapse-bottom {
-  background-position: 0 -272px;
-}
-/* line 50, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-hd .x-tool-expand-top,
-.x-accordion-hd .x-tool-expand-bottom {
-  background-position: 0 -256px;
-}
-/* line 69, ../../../../ext/packages/ext-theme-neutral/sass/src/layout/container/Accordion.scss */
-.x-accordion-hd .x-tool-img {
-  background-image: url(images/tools/tool-sprites-dark.png);
-  background-color: #dfeaf2;
-}
-
 /* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/resizer/Resizer.scss */
 .x-resizable-handle {
   position: absolute;
@@ -25085,12 +25021,12 @@ a.x-monthpicker-yearnav-button:hover {
 }
 
 /* including package ext-charts */
-/* line 1, ../../../../ext/packages/ext-charts/sass/src/draw/Component.scss */
+/* line 1, ../../../../packages/ext-charts/sass/src/draw/Component.scss */
 .x-hide-visibility {
   visibility: hidden !important;
 }
 
-/* line 5, ../../../../ext/packages/ext-charts/sass/src/draw/Component.scss */
+/* line 5, ../../../../packages/ext-charts/sass/src/draw/Component.scss */
 .x-hide-display {
   display: none !important;
 }
